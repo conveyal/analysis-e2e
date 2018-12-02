@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Modification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03a0e39b-179b-4563-8604-ad0820a7e64d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c596c7e3-5137-4f6a-b97e-46c642df7279</id>
+      <masked>false</masked>
+      <name>modType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9cf31eff-e0e4-452a-8045-eefa997def24</id>
+      <masked>false</masked>
+      <name>modName</name>
+   </variable>
+</TestCaseEntity>
