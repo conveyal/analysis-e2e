@@ -21,7 +21,7 @@
       <guid>f95cbb8d-051b-4aaf-b8ec-b1113ee1d911</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Modification/Adjust Dwell/Single Route/71 eastbound</testCaseId>
+      <testCaseId>Test Cases/Modification/Adjust Dwell/Single Route/87 (partial)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cc880936-308d-433a-ac0b-1b708f7995b9</guid>
