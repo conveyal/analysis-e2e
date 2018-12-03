@@ -1,15 +1,14 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-try {
-    WebUI.verifyElementPresent(findTestObject('Misc/Dock Title'), 0)
-}
-catch (Exception e) {
-    WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
-} 
+//try {
+//    WebUI.verifyElementPresent(findTestObject('Misc/Dock Title'), 0)
+//}
+//catch (Exception e) {
+//    WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+//} 
 
 WebUI.click(findTestObject('Project/a_Create a modification'))
 

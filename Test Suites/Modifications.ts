@@ -4,7 +4,7 @@
    <name>Modifications</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-02T00:10:30</lastRun>
+   <lastRun>2018-12-03T23:29:00</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,19 +14,19 @@
    <testCaseLink>
       <guid>2feb3552-fcc4-41aa-a303-b7a2bc975be6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f95cbb8d-051b-4aaf-b8ec-b1113ee1d911</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Modification/Adjust Dwell/Single Route/87 (partial)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cc880936-308d-433a-ac0b-1b708f7995b9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Modification/Delete All Modifications</testCaseId>
    </testCaseLink>
    <testCaseLink>

@@ -4,6 +4,16 @@
    <name>a_Katalon</name>
    <tag></tag>
    <elementGuidId>0c6efee8-7c3f-494a-a932-1e23b042c028</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title = 'Go to project' and (text() = ' Katalon' or . = ' Katalon')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
