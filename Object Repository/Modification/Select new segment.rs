@@ -7,15 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>label[for='Selection'] + div a.btn</value>
+         <value>label[for='Segment'] + div a.btn</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
