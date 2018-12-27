@@ -13,16 +13,8 @@ WebUI.callTestCase(findTestCase('Modification/Set Route after Feed'), [('routeNa
 
 WebUI.click(findTestObject('Modification/Select new segment'))
 
-'Draw box to select a portion of the route. TODO make consistency not dependent on initial viewport.'
-WebUI.clickOffset(findTestObject('Misc/Map Pane'), 200, 200)
-
-WebUI.clickOffset(findTestObject('Misc/Map Pane'), 200, 600)
-
-WebUI.clickOffset(findTestObject('Misc/Map Pane'), 500, 600)
-
-WebUI.clickOffset(findTestObject('Misc/Map Pane'), 500, 200)
-
-WebUI.clickOffset(findTestObject('Misc/Map Pane'), 200, 200)
+WebUI.callTestCase(findTestCase('Modification/Draw Box on Map'), [('x1') : 200, ('y1') : 200, ('x2') : 500, ('y2') : 600],
+	FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Modification/Set Speed'), [('speed') : '2'], FailureHandling.STOP_ON_FAILURE)
 
