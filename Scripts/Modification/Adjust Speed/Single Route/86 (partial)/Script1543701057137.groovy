@@ -13,7 +13,7 @@ WebUI.callTestCase(findTestCase('Modification/Set Route after Feed'), [('routeNa
 
 WebUI.click(findTestObject('Modification/Select new segment'))
 
-WebUI.callTestCase(findTestCase('Modification/Draw Box on Map'), [('x1') : 200, ('y1') : 200, ('x2') : 500, ('y2') : 600],
+WebUI.callTestCase(findTestCase('Modification/Click on Map'), [('coordinates'): [[200, 200], [200, 600], [500, 600], [500,200], [200, 200]]],
 	FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Modification/Set Speed'), [('speed') : '2'], FailureHandling.STOP_ON_FAILURE)

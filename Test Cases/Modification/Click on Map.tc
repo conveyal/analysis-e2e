@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Draw Box on Map</name>
+   <name>Click on Map</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b1fd09d8-ba37-42b1-b53c-21f637b25222</testCaseGuid>
