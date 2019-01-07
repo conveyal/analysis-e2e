@@ -47,6 +47,24 @@
       <testCaseId>Test Cases/Modification/Boston/Adjust Speed/86 (partial)</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>eda60969-2b28-4c17-bf5b-93e293ea69f9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Modification/Boston/Reroute/5 detour</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7552d9ff-0596-4f7a-b61d-8539c0af258a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Modification/Boston/Reroute/9 curtail westbound</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>44aea51d-35e8-48c4-8b69-ce93c4ec43a5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Modification/Boston/Reroute/SL2 extend</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>5ab678c6-f1fb-4db3-8332-63076dfbe9c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

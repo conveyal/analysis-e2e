@@ -13,7 +13,7 @@ WebUI.callTestCase(findTestCase('Modification/Shared/Set Route after Feed'), [('
 
 WebUI.callTestCase(findTestCase('Modification/Shared/Set Dwell'), [('dwell') : '300'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modification/Select new segment'))
+WebUI.click(findTestObject('Modification/New selection'))
 
 WebUI.callTestCase(findTestCase('Modification/Shared/Click on Map'), [('coordinates'): [[600, 200], [600, 350], [800, 350], [800,200], [600, 200]]], 
     FailureHandling.STOP_ON_FAILURE)

@@ -11,7 +11,7 @@ WebUI.callTestCase(findTestCase('Modification/Shared/Set Feed'), [('feedName') :
 
 WebUI.callTestCase(findTestCase('Modification/Shared/Set Route after Feed'), [('routeName') : '86 Sullivan'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modification/Select new segment'))
+WebUI.click(findTestObject('Modification/New segment'))
 
 WebUI.callTestCase(findTestCase('Modification/Shared/Click on Map'), [('coordinates'): [[200, 200], [200, 600], [500, 600], [500,200], [200, 200]]],
 	FailureHandling.STOP_ON_FAILURE)

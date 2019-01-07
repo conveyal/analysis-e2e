@@ -9,4 +9,9 @@
       <initValue>'http://analysis-staging.conveyal.com'</initValue>
       <name>base_url</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['Harvard', 'Lechmere', 'Watertown']</initValue>
+      <name>bookmarks</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

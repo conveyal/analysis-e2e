@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Select new segment</name>
+   <name>New selection</name>
    <tag></tag>
-   <elementGuidId>176648b9-10a5-409b-a5df-81fee8bf749b</elementGuidId>
+   <elementGuidId>597952d1-2438-4445-b22f-13893d2a3e63</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-      </entry>
       <entry>
          <key>XPATH</key>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>label[for='Segment'] + div a.btn</value>
+         <value>label[for='Selection'] + div a.btn</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
