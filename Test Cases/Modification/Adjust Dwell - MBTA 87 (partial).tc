@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>87 and 94</name>
+   <name>Adjust Dwell - MBTA 87 (partial)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>931a3511-348a-4d96-93ad-10eb2c095f36</testCaseGuid>
+   <testCaseGuid>46a3ae95-bd1d-4ca5-ae04-e285c861f321</testCaseGuid>
 </TestCaseEntity>

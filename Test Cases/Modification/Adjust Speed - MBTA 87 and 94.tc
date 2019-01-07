@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>86 (partial)</name>
+   <name>Adjust Speed - MBTA 87 and 94</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ea879560-793b-4069-b158-f48fad6c8fa2</testCaseGuid>
+   <testCaseGuid>931a3511-348a-4d96-93ad-10eb2c095f36</testCaseGuid>
 </TestCaseEntity>

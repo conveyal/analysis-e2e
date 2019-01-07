@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>71 Eastbound</name>
+   <name>Adjust Speed - MBTA 86 (partial)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>bcd58151-70aa-4c1f-abca-ed01c30d6394</testCaseGuid>
+   <testCaseGuid>ea879560-793b-4069-b158-f48fad6c8fa2</testCaseGuid>
 </TestCaseEntity>

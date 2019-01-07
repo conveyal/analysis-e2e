@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>71 eastbound</name>
+   <name>Adjust Dwell - MBTA 71 eastbound</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9665b5b1-0805-4dbb-96d3-b9a66df96835</testCaseGuid>
+   <testCaseGuid>bcd58151-70aa-4c1f-abca-ed01c30d6394</testCaseGuid>
 </TestCaseEntity>

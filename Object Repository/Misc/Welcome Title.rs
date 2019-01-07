@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>WelcomeTitle</name>
+   <name>Welcome Title</name>
    <tag></tag>
    <elementGuidId>e957db99-4c6f-4de8-be5f-8709d006c4d9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.WelcomeTitle</value>
+         <key>XPATH</key>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>CSS</key>
+         <value>div.WelcomeTitle</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
