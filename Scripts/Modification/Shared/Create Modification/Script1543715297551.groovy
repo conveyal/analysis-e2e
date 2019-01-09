@@ -10,6 +10,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 //    WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 //} 
 
+WebUI.waitForElementNotPresent(findTestObject('Misc/Spinner'), 20)
+
 WebUI.click(findTestObject('Project/a_Create a modification'))
 
 WebUI.selectOptionByLabel(findTestObject('Project/Select Modification type'), modType, true)

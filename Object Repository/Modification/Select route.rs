@@ -6,15 +6,14 @@
    <elementGuidId>c740f175-902e-4db5-8e05-8018e170b777</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.InnerDock > div.block div.form-group + div.form-group div.Select-control input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
          <value></value>
       </entry>
    </selectorCollection>

@@ -20,6 +20,8 @@ WebUI.callTestCase(findTestCase('Modification/Shared/Set Feed'), [('feedName') :
 
 WebUI.callTestCase(findTestCase('Modification/Shared/Set Route after Feed'), [('routeName') : '35 Dedham'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Modification/Shared/Clear Pattern'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Modification/Shared/Set Pattern'), [('patternName') : 'from Forest'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Modification/Shared/Set Pattern'), [('patternName') : 'from Forest'], FailureHandling.STOP_ON_FAILURE)

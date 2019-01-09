@@ -20,7 +20,7 @@ WebUI.callTestCase(findTestCase('Modification/Shared/Set Feed'), [('feedName') :
 
 WebUI.callTestCase(findTestCase('Modification/Shared/Set Route after Feed'), [('routeName') : 'SL2 Design'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modification/Clear Patterns'))
+WebUI.callTestCase(findTestCase('Modification/Shared/Clear Pattern'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Modification/Shared/Set Pattern'), [('patternName') : 'from Drydock'], FailureHandling.STOP_ON_FAILURE)
 

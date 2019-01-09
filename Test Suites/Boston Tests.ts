@@ -59,6 +59,18 @@
       <testCaseId>Test Cases/Modification/Boston/Reroute/9 curtail westbound</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>2bc55e5e-b7e9-41bb-a6ea-9250e6e65b82</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Modification/Boston/Remove Trips/34, 34E remove trips</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b02242e1-d7df-49a8-8248-99fa6deaca67</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Modification/Boston/Remove Trips/35 outbound remove</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>44aea51d-35e8-48c4-8b69-ce93c4ec43a5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
