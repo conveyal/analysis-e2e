@@ -31,7 +31,8 @@ WebUI.callTestCase(findTestCase('Modification/Shared/Set Pattern'), [('patternNa
 WebUI.click(findTestObject('Modification/Select to stop'))
 
 // TODO use coordinates
-WebUI.clickOffset(findTestObject('Misc/Root'), 1040, 460)
+WebUI.callTestCase(findTestCase('Modification/Shared/Click Around Point'), [('point') : [1040, 460], ('buttonToEnable') : findTestObject(
+	'Modification/Clear to stop'), ('requestedRadius') : 10], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Modification/Edit route geometry'))
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Click on Map</name>
+   <name>Click Around Point</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b1fd09d8-ba37-42b1-b53c-21f637b25222</testCaseGuid>
+   <testCaseGuid>45395a29-60b7-473f-a25d-53ff73bbcdf3</testCaseGuid>
 </TestCaseEntity>
