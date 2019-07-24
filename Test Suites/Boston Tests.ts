@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>2feb3552-fcc4-41aa-a303-b7a2bc975be6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -85,7 +85,7 @@
    <testCaseLink>
       <guid>d98c5a40-5082-4023-92f7-85bcc9194e69</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Modification/Shared/Delete All Modifications</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
