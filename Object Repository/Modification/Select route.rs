@@ -10,11 +10,10 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.InnerDock > div.block div.form-group + div.form-group div.Select-control input</value>
+         <value>div.form-group + div.form-group div:first-child[class$='container'] div[class$='control'] input</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

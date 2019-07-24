@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>label[for='Selection'] + div a.btn</value>
+         <value>label[for='Selection'] ~ a</value>
       </entry>
       <entry>
          <key>BASIC</key>

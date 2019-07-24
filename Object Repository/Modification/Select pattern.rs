@@ -6,16 +6,14 @@
    <elementGuidId>78215665-9bc1-407d-bc8f-a5a468260239</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>label[for='Patterns'] + div div.Select-control input</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>label[for='Patterns'] + div div[class$='control'] input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

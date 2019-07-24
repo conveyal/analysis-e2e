@@ -6,16 +6,16 @@
    <elementGuidId>5842781e-83f5-40cb-aef8-d91283cfcbc6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[3]/div[2]/div/div/form/div/div/div/div/div/span[2]/span</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//span[@class = 'Select-arrow']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>label[for='Feed'] + div.Select span.Select-arrow</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div[3]/div[2]/div/div/form/div/div/div/div/div/span[2]/span</value>
+         <value>label[for='Feed'] +div div[class$='indicatorContainer']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

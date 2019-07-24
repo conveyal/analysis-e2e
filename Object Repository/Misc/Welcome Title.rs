@@ -13,7 +13,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.WelcomeTitle</value>
+         <value>a[title='Go to region']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
