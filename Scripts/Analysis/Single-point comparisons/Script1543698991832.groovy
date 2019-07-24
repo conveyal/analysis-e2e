@@ -10,19 +10,23 @@ WebUI.navigateToUrl('https://analysis-staging.conveyal.com/regions/5a2e9df732b98
 
 WebUI.setText(findTestObject('Analysis/Project'), 'Katalon')
 
-WebUI.sendKeys(findTestObject('Analysis/Project'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Misc/Top Menu Object'))
 
 WebUI.setText(findTestObject('Analysis/Scenario'), 'Default')
 
-WebUI.sendKeys(findTestObject('Analysis/Scenario'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Misc/Top Menu Object'))
 
-WebUI.click(findTestObject('Analysis/Comparison Project'))
+WebUI.setText(findTestObject('Analysis/Comparison Project'), 'Katalon')
 
-WebUI.click(findTestObject('Analysis/Select option Katalon'))
+WebUI.click(findTestObject('Misc/Top Menu Object'))
 
-WebUI.click(findTestObject('Analysis/Comparison Scenario'))
+WebUI.setText(findTestObject('Analysis/Comparison Scenario'), 'Baseline')
 
-WebUI.click(findTestObject('Analysis/Select option Baseline'))
+WebUI.click(findTestObject('Misc/Top Menu Object'))
+
+WebUI.setText(findTestObject('Analysis/Routing engine version'), GlobalVariable.r5Version)
+
+WebUI.click(findTestObject('Misc/Top Menu Object'))
 
 WebUI.click(findTestObject('Analysis/a_Fetch results'))
 
@@ -31,7 +35,11 @@ WebUI.waitForElementPresent(findTestObject('Analysis/a_Fetch results'), 300)
 for (bookmark in GlobalVariable.bookmarks) {
 	WebUI.setText(findTestObject('Analysis/Bookmark input'), bookmark)
 	
-	WebUI.sendKeys(findTestObject('Analysis/Bookmark input'), Keys.chord(Keys.ENTER))
+	WebUI.click(findTestObject('Misc/Top Menu Object'))
+		
+	WebUI.setText(findTestObject('Analysis/Routing engine version'), GlobalVariable.r5Version)
+	
+	WebUI.click(findTestObject('Misc/Top Menu Object'))
 	
 	WebUI.click(findTestObject('Analysis/a_Fetch results'))
 	

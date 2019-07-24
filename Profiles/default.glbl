@@ -14,4 +14,9 @@
       <initValue>['Harvard', 'Lechmere', 'Watertown']</initValue>
       <name>bookmarks</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'v4.6.0'</initValue>
+      <name>r5Version</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

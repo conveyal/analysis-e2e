@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Fetch results</name>
+   <name>Routing engine version</name>
    <tag></tag>
-   <elementGuidId>ab5426b3-11dc-40ef-8a1e-a7dd397ca163</elementGuidId>
+   <elementGuidId>e993a9b2-14ea-4ca4-976b-176f5634b0dd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div[3]/div/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//a[(text() = ' Fetch results' or . = ' Fetch results')]</value>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>svg[data-icon='sync']</value>
+         <value>label[for^='routing-engine'] ~ div input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
