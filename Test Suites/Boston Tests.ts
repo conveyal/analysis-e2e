@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>2feb3552-fcc4-41aa-a303-b7a2bc975be6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -79,7 +79,7 @@
    <testCaseLink>
       <guid>5ab678c6-f1fb-4db3-8332-63076dfbe9c9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Analysis/Single-point comparisons</testCaseId>
    </testCaseLink>
    <testCaseLink>

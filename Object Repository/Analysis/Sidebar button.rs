@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Closed Group</name>
+   <name>Sidebar button</name>
    <tag></tag>
-   <elementGuidId>e84d33a5-b2ad-4e5c-8974-df6e14476f52</elementGuidId>
+   <elementGuidId>870afb3f-3f93-4e49-a372-18580f5d6de2</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>svg.fa-chart-area</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div.InnerDock.block div.form-group + div.panel svg[data-icon='caret-right']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

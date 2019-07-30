@@ -20,14 +20,17 @@ def driver = DriverFactory.getWebDriver()
 WebUI.navigateToUrl('https://analysis-staging.conveyal.com/regions/5a2e9df732b98e221fef89eb/projects/5c006fee32b98e3794a6f7b7')
 
 while (true) {
-	WebUI.waitForElementPresent(findTestObject('Misc/Dock Title'), 0)
+    WebUI.waitForElementPresent(findTestObject('Modification/First Caret'), 0)
 
-	if (WebUI.verifyElementPresent(findTestObject('Modification/Closed Group'), 1, FailureHandling.OPTIONAL)) {
-		WebUI.click(findTestObject('Modification/Closed Group'))
-	}
-		
-	if(driver.findElements(By.cssSelector('div.InnerDock.block div.form-group ~ div.panel a.list-group-item')).size() < 1) break
-
+    if (WebUI.verifyElementAttributeValue(findTestObject('Modification/First Caret'), 'data-icon', 'caret-right', 1, FailureHandling.OPTIONAL)) {
+        WebUI.click(findTestObject('Modification/First Caret'))
+    }
+    
+    if (driver.findElements(By.cssSelector('div.InnerDock.block div.form-group ~ div.panel a.list-group-item')).size() < 
+    1) {
+        break
+    }
+    
     WebUI.click(findTestObject('Project/Modification Title'))
 
     WebUI.click(findTestObject('Modification/Delete Modification'))

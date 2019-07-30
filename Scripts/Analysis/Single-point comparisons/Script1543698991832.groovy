@@ -6,7 +6,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
 
-WebUI.navigateToUrl('https://analysis-staging.conveyal.com/regions/5a2e9df732b98e221fef89eb/analysis')
+WebUI.waitForElementNotPresent(findTestObject('Misc/Spinner'), 20)
+
+// WebUI.navigateToUrl('https://analysis-staging.conveyal.com/regions/5a2e9df732b98e221fef89eb/analysis')
+
+WebUI.click(findTestObject('Analysis/Sidebar button'))
 
 WebUI.setText(findTestObject('Analysis/Project'), 'Katalon')
 
