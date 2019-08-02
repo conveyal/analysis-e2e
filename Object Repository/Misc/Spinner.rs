@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.Sidebar i.fa-spin</value>
+         <value>svg.fa-compass.fa-spin</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
