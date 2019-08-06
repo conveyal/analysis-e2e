@@ -15,6 +15,15 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>62120c68-b1df-4901-b6ca-9c117fa3dc49</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Credentials - Copy</testDataId>
+      </testDataLink>
    </testCaseLink>
    <testCaseLink>
       <guid>500a52d7-970d-400c-841e-5b0fe896e418</guid>
