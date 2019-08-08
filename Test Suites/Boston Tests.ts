@@ -92,6 +92,12 @@
       <testCaseId>Test Cases/Modification/Boston/Add Trips/Arlington Bus</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>f7408a0f-ed7b-40fa-a62a-a31f4cf9a302</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Modification/Boston/Add Trips/Arlington Gondola</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>5ab678c6-f1fb-4db3-8332-63076dfbe9c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

@@ -12,21 +12,27 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Modification/Shared/Create Modification'), [('modName') : 'Arlington Bus', ('modType') : 'Add Trip Pattern'], 
+WebUI.callTestCase(findTestCase('Modification/Shared/Create Modification'), [('modName') : 'Arlington Gondola', ('modType') : 'Add Trip Pattern'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Modification/Shared/Geocode'), [('location') : 'Arlington, Massachusetts'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Modification/Transit Mode'))
+
+WebUI.sendKeys(findTestObject('Modification/Transit Mode'), 'Gondola')
+
+WebUI.sendKeys(findTestObject('Modification/Transit Mode'), Keys.chord(Keys.ENTER))
+
 WebUI.click(findTestObject('Modification/Edit route geometry'))
 
-WebUI.click(findTestObject('Modification/Follow Streets'))
-
-WebUI.callTestCase(findTestCase('Modification/Shared/Click Point on Map'), [('coordinates') : [[200, 250], [500, 250]]], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Modification/Shared/Click Point on Map'), [('coordinates') : [[200, 500], [500, 250]]], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementNotPresent(findTestObject('Misc/Spinner'), 20)
 
-WebUI.callTestCase(findTestCase('Modification/Shared/Click Point on Map'), [('coordinates') : [[800, 250]]], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Modification/Shared/Click Point on Map'), [('coordinates') : [[800, 0]]], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementNotPresent(findTestObject('Misc/Spinner'), 20)
 
@@ -36,20 +42,7 @@ WebUI.waitForElementNotPresent(findTestObject('Misc/Spinner'), 20)
 
 WebUI.click(findTestObject('Modification/Timetables/Timetable Icon'))
 
-WebUI.setText(findTestObject('Modification/Timetables/Default Dwell'), '00:05:00')
-
-WebUI.click(findTestObject('Modification/Timetables/Individual Dwells'))
-
-WebUI.setText(findTestObject('Modification/Timetables/Dwell at Stop 1'), '00:10:00')
-
-WebUI.click(findTestObject('Modification/Timetables/Individual Segment Speeds'))
-
-WebUI.setText(findTestObject('Modification/Timetables/Time for Segment 1'), '00:01:00')
-
-WebUI.setText(findTestObject('Modification/Timetables/Time for Segment 2'), '00:19:00')
-
-WebUI.verifyElementText(findTestObject('Modification/Timetables/Total travel time'), '00:40:00')
+WebUI.setText(findTestObject('Modification/Timetables/Average Speed'), '80')
 
 WebUI.click(findTestObject('Modification/Back to Modifications'))
-
 
