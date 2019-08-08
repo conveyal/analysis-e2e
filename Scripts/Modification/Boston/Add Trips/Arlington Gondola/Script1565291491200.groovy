@@ -34,13 +34,7 @@ WebUI.waitForElementNotPresent(findTestObject('Misc/Spinner'), 20)
 
 WebUI.callTestCase(findTestCase('Modification/Shared/Click Point on Map'), [('coordinates') : [[800, 0]]], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementNotPresent(findTestObject('Misc/Spinner'), 20)
-
-WebUI.click(findTestObject('Modification/Add Timetable'))
-
-WebUI.waitForElementNotPresent(findTestObject('Misc/Spinner'), 20)
-
-WebUI.click(findTestObject('Modification/Timetables/Timetable Icon'))
+WebUI.callTestCase(findTestCase('Modification/Shared/Add and Open Timetable'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Modification/Timetables/Average Speed'), '80')
 

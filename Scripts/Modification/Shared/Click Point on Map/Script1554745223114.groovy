@@ -6,5 +6,6 @@ WebUI.waitForElementNotPresent(findTestObject('Misc/Spinner'), 20)
 
 for (point in coordinates){
 	'TODO avoid absolute coordinates'
+	WebUI.waitForElementNotPresent(findTestObject('Misc/Spinner'), 20)
 	WebUI.clickOffset(findTestObject('Misc/Map Pane'), point[0], point[1])
 }

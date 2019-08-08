@@ -22,19 +22,14 @@ WebUI.click(findTestObject('Modification/Edit route geometry'))
 
 WebUI.click(findTestObject('Modification/Follow Streets'))
 
-WebUI.callTestCase(findTestCase('Modification/Shared/Click Point on Map'), [('coordinates') : [[200, 250], [500, 250]]], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Modification/Shared/Click Point on Map'), [('coordinates') : [[200, 250], [500, 250]]], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementNotPresent(findTestObject('Misc/Spinner'), 20)
 
 WebUI.callTestCase(findTestCase('Modification/Shared/Click Point on Map'), [('coordinates') : [[800, 250]]], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementNotPresent(findTestObject('Misc/Spinner'), 20)
-
-WebUI.click(findTestObject('Modification/Add Timetable'))
-
-WebUI.waitForElementNotPresent(findTestObject('Misc/Spinner'), 20)
-
-WebUI.click(findTestObject('Modification/Timetables/Timetable Icon'))
+WebUI.callTestCase(findTestCase('Modification/Shared/Add and Open Timetable'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Modification/Timetables/Default Dwell'), '00:05:00')
 
@@ -51,5 +46,4 @@ WebUI.setText(findTestObject('Modification/Timetables/Time for Segment 2'), '00:
 WebUI.verifyElementText(findTestObject('Modification/Timetables/Total travel time'), '00:40:00')
 
 WebUI.click(findTestObject('Modification/Back to Modifications'))
-
 
