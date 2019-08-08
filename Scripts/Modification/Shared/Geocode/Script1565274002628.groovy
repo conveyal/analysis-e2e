@@ -14,6 +14,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.waitForElementNotPresent(findTestObject('Misc/Spinner'), 20)
+
 WebUI.setText(findTestObject('Misc/Geocode Box'), location)
 
 WebUI.click(findTestObject('Misc/Top Menu Object'))

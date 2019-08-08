@@ -80,10 +80,10 @@
       <testCaseId>Test Cases/Modification/Boston/Remove Trips/34, 34E remove trips</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b02242e1-d7df-49a8-8248-99fa6deaca67</guid>
+      <guid>e1476fde-71a8-4057-84e4-559ace399d44</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Modification/Boston/Remove Trips/35 outbound remove</testCaseId>
+      <testCaseId>Test Cases/Modification/Boston/Add Trips/Arlington Bus</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5ab678c6-f1fb-4db3-8332-63076dfbe9c9</guid>
@@ -96,5 +96,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Modification/Shared/Delete All Modifications</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b02242e1-d7df-49a8-8248-99fa6deaca67</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Modification/Boston/Remove Trips/35 outbound remove</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
