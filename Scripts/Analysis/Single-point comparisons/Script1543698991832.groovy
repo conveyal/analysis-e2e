@@ -53,3 +53,30 @@ for (bookmark in GlobalVariable.bookmarks) {
 	
 }
 
+WebUI.click(findTestObject('Analysis/Access Mode Bike'))
+
+WebUI.click(findTestObject('Analysis/a_Fetch results'))
+
+WebUI.waitForElementPresent(findTestObject('Analysis/a_Fetch results'), 300)
+
+WebUI.click(findTestObject('Analysis/Access Mode Car'))
+
+WebUI.click(findTestObject('Analysis/a_Fetch results'))
+
+WebUI.waitForElementPresent(findTestObject('Analysis/a_Fetch results'), 300)
+
+WebUI.click(findTestObject('Analysis/Access Mode PnR'))
+
+WebUI.click(findTestObject('Analysis/a_Fetch results'))
+
+WebUI.waitForElementPresent(findTestObject('Analysis/a_Fetch results'), 300)
+
+WebUI.click(findTestObject('Analysis/Advanced Settings'))
+
+// WebUI.click(findTestObject('Analysis/Egress Mode Bike'))
+
+// WebUI.click(findTestObject('Analysis/a_Fetch results'))
+
+// WebUI.waitForElementPresent(findTestObject('Analysis/a_Fetch results'), 300)
+
+

@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'v4.6.0'</initValue>
+      <initValue>'v4.6.1-17-g909cffe'</initValue>
       <name>r5Version</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
