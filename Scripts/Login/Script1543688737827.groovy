@@ -18,9 +18,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.base_url)
 
-WebUI.waitForElementPresent(findTestObject('Login/Auth Logo'), 20)
-
 WebUI.setViewPortSize(1440, 800)
+
+WebUI.waitForElementVisible(findTestObject('Login/Email'), 20)
+
+WebUI.waitForElementClickable(findTestObject('Login/Email'), 20)
 
 WebUI.setText(findTestObject('Login/Email'), findTestData('Credentials - Copy').getValue(1, 1))
 
