@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//input[@type = 'email' and @name = 'email']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[type='email']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
