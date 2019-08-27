@@ -9,3 +9,5 @@ https://github.com/conveyal/r5/issues/512
 Test conservation of edge length and geometry when splitting
 
 Both the OSM XML and OSM PBF are included to allow visualizing or editing the data in tools like JOSM.
+
+Small edits can be made inside GTFS feeds using vi on the zip file itself.
