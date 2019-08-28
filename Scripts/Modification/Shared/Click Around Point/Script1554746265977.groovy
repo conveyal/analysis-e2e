@@ -20,9 +20,11 @@ x = (point[0])
 y = (point[1])
 
 WebUI.clickOffset(findTestObject('Misc/Map Pane'), x, y)
+WebUI.delay(1)
 
 // For clicking on the screen when the exact pixel may be slightly off.  
 // Marches in square around the estimated point until a desired element is no longer disabled
+// Translation from screen pixels to offset in Katalon v6: (-890, -340)
 
 
 while (radius < requestedRadius) {
@@ -31,26 +33,30 @@ while (radius < requestedRadius) {
 	
 	while (x < ((point[0]) + radius)) {
 		if (isEnabled()) break;
-		WebUI.clickOffset(findTestObject('Misc/Root'), x, y)
+		WebUI.clickOffset(findTestObject('Misc/Map Pane'), x, y)
         x++
+		WebUI.delay(1)
     }
     
     while (y < ((point[1]) + radius)) {
 		if (isEnabled()) break;
-		WebUI.clickOffset(findTestObject('Misc/Root'), x, y)
+		WebUI.clickOffset(findTestObject('Misc/Map Pane'), x, y)
         y++
+		WebUI.delay(1)
     }
     
     while (x > ((point[0]) - radius)) {
 		if (isEnabled()) break;
-		WebUI.clickOffset(findTestObject('Misc/Root'), x, y)
+		WebUI.clickOffset(findTestObject('Misc/Map Pane'), x, y)
         x--
+		WebUI.delay(1)
     }
     
     while (y > ((point[1]) - radius)) {
 		if (isEnabled()) break;
-		WebUI.clickOffset(findTestObject('Misc/Root'), x, y)      
+		WebUI.clickOffset(findTestObject('Misc/Map Pane'), x, y)      
 		y--
+		WebUI.delay(1)
     }
 
     radius++

@@ -7,5 +7,7 @@ WebUI.waitForElementNotPresent(findTestObject('Misc/Spinner'), 20)
 for (point in coordinates){
 	'TODO avoid absolute coordinates'
 	WebUI.waitForElementNotPresent(findTestObject('Misc/Spinner'), 20)
+//	 Note that in Katalon 6, these clicks appear to be offset from the center of the element.
 	WebUI.clickOffset(findTestObject('Misc/Map Pane'), point[0], point[1])
+	WebUI.delay(1)
 }

@@ -30,7 +30,7 @@ WebUI.callTestCase(findTestCase('Modification/Shared/Set Pattern'), [('patternNa
 
 WebUI.click(findTestObject('Modification/Select from stop'))
 
-WebUI.callTestCase(findTestCase('Modification/Shared/Click Around Point'), [('point') : [890, 290], ('buttonToEnable') : findTestObject(
+WebUI.callTestCase(findTestCase('Modification/Shared/Click Around Point'), [('point') : [0, -50], ('buttonToEnable') : findTestObject(
             'Modification/Clear from stop'), ('requestedRadius') : 10], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Modification/Back to Modifications'))

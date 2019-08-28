@@ -27,16 +27,16 @@ WebUI.callTestCase(findTestCase('Modification/Shared/Set Pattern'), [('patternNa
 WebUI.click(findTestObject('Modification/Select from stop'))
 
 // TODO use coordinates
-WebUI.callTestCase(findTestCase('Modification/Shared/Click Around Point'), [('point') : [797, 143], ('buttonToEnable') : findTestObject(
+WebUI.callTestCase(findTestCase('Modification/Shared/Click Around Point'), [('point') : [338, -214], ('buttonToEnable') : findTestObject(
 	'Modification/Clear from stop'), ('requestedRadius') : 10], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Modification/Edit route geometry'))
 
-WebUI.clickOffset(findTestObject('Misc/Root'), 825, 600)
+WebUI.clickOffset(findTestObject('Misc/Map Pane'), -10, -50)
 
 WebUI.click(findTestObject('Modification/Select to stop'))
 
-WebUI.callTestCase(findTestCase('Modification/Shared/Click Around Point'), [('point') : [627, 336], ('buttonToEnable') : findTestObject(
+WebUI.callTestCase(findTestCase('Modification/Shared/Click Around Point'), [('point') : [-300, -54], ('buttonToEnable') : findTestObject(
 	'Modification/Clear to stop'), ('requestedRadius') : 10], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Modification/Speed along segment'), '60')
