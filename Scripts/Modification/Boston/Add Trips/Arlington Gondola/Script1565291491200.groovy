@@ -27,7 +27,7 @@ WebUI.sendKeys(findTestObject('Modification/Transit Mode'), Keys.chord(Keys.ENTE
 
 WebUI.click(findTestObject('Modification/Edit route geometry'))
 
-WebUI.callTestCase(findTestCase('Modification/Shared/Click Point on Map'), [('coordinates') : [[-200, 500], [100, 250]]], 
+WebUI.callTestCase(findTestCase('Modification/Shared/Click Point on Map'), [('coordinates') : [[-200, 250], [100, 250]]], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementNotPresent(findTestObject('Misc/Spinner'), 20)
