@@ -22,12 +22,12 @@ WebUI.click(findTestObject('Modification/Edit route geometry'))
 
 WebUI.click(findTestObject('Modification/Follow Streets'))
 
-WebUI.callTestCase(findTestCase('Modification/Shared/Click Point on Map'), [('coordinates') : [[200, 250], [500, 250]]], 
+WebUI.callTestCase(findTestCase('Modification/Shared/Click Point on Map'), [('coordinates') : [[-200, 250], [100, 250]]], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementNotPresent(findTestObject('Misc/Spinner'), 20)
 
-WebUI.callTestCase(findTestCase('Modification/Shared/Click Point on Map'), [('coordinates') : [[800, 250]]], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Modification/Shared/Click Point on Map'), [('coordinates') : [[400, 250]]], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Modification/Shared/Add and Open Timetable'), [:], FailureHandling.STOP_ON_FAILURE)
 
