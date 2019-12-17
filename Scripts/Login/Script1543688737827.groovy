@@ -14,9 +14,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.base_url)
+WebUI.openBrowser(GlobalVariable.base_url)
 
 WebUI.setViewPortSize(1440, 800)
 
@@ -30,7 +28,7 @@ WebUI.setText(findTestObject('Login/Password'), findTestData('Credentials - Copy
 
 WebUI.click(findTestObject('Login/Auth Send'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Misc/Welcome Title'), 20)
+not_run: WebUI.waitForElementNotPresent(findTestObject('Misc/Spinner'), 20)
 
 WebUI.click(findTestObject('Misc/Region Name'))
 
