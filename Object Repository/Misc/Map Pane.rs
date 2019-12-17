@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.Fullscreen</value>
+         <value>div.leaflet-container</value>
       </entry>
       <entry>
          <key>XPATH</key>

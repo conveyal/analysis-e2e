@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@title = 'Go to project' and (text() = ' Katalon' or . = ' Katalon')]</value>
+         <value>//a[(text() = ' Katalon' or . = ' Katalon')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -30,7 +30,7 @@
       <value>list-group-item</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
@@ -61,18 +61,21 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//div[@id='root']/div/div[3]/div[2]/div/div[2]/div/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
+      <type>Main</type>
       <value>//a[contains(@href, '/regions/5a2e9df732b98e221fef89eb/projects/5c006fee32b98e3794a6f7b7')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//div[2]/div/a</value>
    </webElementXpaths>
 </WebElementEntity>
